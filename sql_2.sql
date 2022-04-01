@@ -1,6 +1,6 @@
 CREATE database guvi
 ------------------schema design-------------------
-CREATE TABLE class (
+CREATE TABLE zenclass (
         rollNo INT (10) primary key,
         student_name varchar(45) NOT NULL,
         student_email varchar(40)NOT NULL,
