@@ -43,7 +43,7 @@ CREATE TABLE mentor collection(
 
 -----------------values------------------------
 
-INSERT INTO users VALUES(1,'bala','bala@gmail.com','wd',2),(2,'kaviya','kva@gamil.com','wd',1),(3,'arun','arun@gmail.com','wd',4),(4,'faiz','faiz@gmail.com','wd',6),(5,'abi','abi@gmail.com','wd',7);
+INSERT INTO zenclass VALUES(1,'bala','bala@gmail.com','wd',2),(2,'kaviya','kva@gamil.com','wd',1),(3,'arun','arun@gmail.com','wd',4),(4,'faiz','faiz@gmail.com','wd',6),(5,'abi','abi@gmail.com','wd',7);
 
 INSERT INTO student VALUES('bala',1234567890,10,2,1),('kaviya',1234632890,5,1,1),('faiz',1233459876,2,1,1),('abi',000654321,7,1,1),('arun',0006512345,3,2,2);
 
