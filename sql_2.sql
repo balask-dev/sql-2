@@ -1,7 +1,6 @@
-CREATE database class
-
-
-    CREATE TABLE class (
+CREATE database guvi
+------------------schema design-------------------
+CREATE TABLE class (
         rollNo INT (10) primary key,
         student_name varchar(45) NOT NULL,
         student_email varchar(40)NOT NULL,
@@ -43,6 +42,7 @@ CREATE TABLE mentor collection(
     mentor_rating INT (50) NOT NULL
 );
 
+-----------------values------------------------
 
 INSERT INTO users VALUES(1,'bala','bala@gmail.com','wd',2),(2,'kaviya','kva@gamil.com','wd',1),(3,'arun','arun@gmail.com','wd',4),(4,'faiz','faiz@gmail.com','wd',6),(5,'abi','abi@gmail.com','wd',7);
 
