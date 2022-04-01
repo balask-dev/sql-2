@@ -8,38 +8,37 @@ CREATE TABLE class (
         student_rank INT(2) NOT NULL
 );
 
-
 CREATE TABLE student collection(
-  student_name VARCHAR (45) primary key,
-  contact_no INT (40) NOT NULL,
-  queries INT (50) NOT NULL,
-  projects INT (40) NOT NULL,
-  hackathons INT (2) NOT NULL
+        student_name VARCHAR (45) primary key,
+        contact_no INT (40) NOT NULL,
+        queries INT (50) NOT NULL,
+        projects INT (40) NOT NULL,
+        hackathons INT (2) NOT NULL
 );
 
 CREATE TABLE batch collection(
-    total_students INT (50)NOT NULL,
-    advisor_name VARCHAR (50)primary key,
-    weekday_students INT (50) NOT NULL,
-    weekend_students INT(50)NOT NULL,
-    student_program VARCHAR(50)NOT NULL,
+       total_students INT (50)NOT NULL,
+       advisor_name VARCHAR (50)primary key,
+       weekday_students INT (50) NOT NULL,
+       weekend_students INT(50)NOT NULL,
+       student_program VARCHAR(50)NOT NULL,
 );
 
 CREATE TABLE task collection(
-     student_name VARCHAR(50) primary key,
-     total_tasks INT (40) NOT NULL,
-     pending_tasks INT (40) NOT NULL,
-     marks INT (50) INT NOT NULL,
-     evaluator VARCHAR (50) NOT NULL
+      student_name VARCHAR(50) primary key,
+      total_tasks INT (40) NOT NULL,
+      pending_tasks INT (40) NOT NULL,
+      marks INT (50) INT NOT NULL,
+      evaluator VARCHAR (50) NOT NULL
 
 );
 
 CREATE TABLE mentor collection(
-    mentor_name VARCHAR(50) NOT NULL,
-    mentor_id INT (50) primary key,
-    mentor_batches INT (50) NOT NULL,
-    queries_taken INT (50) NOT NULL,
-    mentor_rating INT (50) NOT NULL
+      mentor_name VARCHAR(50) NOT NULL,
+      mentor_id INT (50) primary key,
+      mentor_batches INT (50) NOT NULL,
+      queries_taken INT (50) NOT NULL,
+      mentor_rating INT (50) NOT NULL
 );
 
 -----------------values------------------------
